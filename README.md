@@ -43,3 +43,10 @@ Our data is transmitted using the JSON format, providing a lightweight and versa
 - **Path Parameter**: These are variables included in the URI path itself. They allow us to point to specific resources or perform actions on them. For instance, we might use path parameters to indicate a particular video or user profile.
 
 Jhootube is an exciting project that encompasses modern web development practices, API integration, and a deep dive into RESTful architecture. We're excited to share our progress and continue building this YouTube clone!
+
+ScreenShots
+![Home Page](https://github.com/kirteeprajapati/youtube_clone/blob/main/Assest/Video_cards.png)
+
+![Video Player](https://github.com/kirteeprajapati/youtube_clone/blob/main/Assest/Videoplayer.png)
+
+![Channel Card](https://github.com/kirteeprajapati/youtube_clone/blob/main/Assest/ChannelCard.png)
