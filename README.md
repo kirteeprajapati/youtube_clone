@@ -4,15 +4,15 @@ Jhootube is a project aimed at creating a clone of the popular video-sharing pla
 
 ## Key Technologies and Concepts
 
-- **Media Query**: We utilize media queries to ensure that our application is responsive, providing a seamless experience on various devices and screen sizes.
+- **Media Query**: It utilize media queries to ensure that our application is responsive, providing a seamless experience on various devices and screen sizes.
 
-- **Material UI**: Our project leverages the Material UI library, offering a consistent and visually appealing design for our YouTube clone.
+- **Material UI**: The project leverages the Material UI library, offering a consistent and visually appealing design for our YouTube clone.
 
-- **React Folder and Structure**: We follow best practices in structuring our React application, organizing components, files, and directories for clarity and maintainability.
+- **React Folder and Structure**: It follow best practices in structuring our React application, organizing components, files, and directories for clarity and maintainability.
 
-- **Rapid API**: We incorporate the Rapid API VS Code extension, which facilitates the integration of external APIs into our project.
+- **Rapid API**: It incorporate the Rapid API VS Code extension, which facilitates the integration of external APIs into our project.
 
-- **Testing API**: Our project includes testing APIs to ensure the reliability and functionality of our YouTube clone.
+- **Testing API**: The project includes testing APIs to ensure the reliability and functionality of our YouTube clone.
 
 ## REST API Overview
 
@@ -34,15 +34,15 @@ These HTTP methods are employed over secure HTTPS connections, ensuring data pri
 
 - **Server -> Data -> Server**: In some cases, data needs to be transferred between server components or layers for processing and management.
 
-Our data is transmitted using the JSON format, providing a lightweight and versatile means of representing data. This format is vital for passing the state of resources between different layers of our application.
+The data is transmitted using the JSON format, providing a lightweight and versatile means of representing data. This format is vital for passing the state of resources between different layers of our application.
 
 ## URI and Path Parameters
 
 - **URI (Uniform Resource Identifier)**: It serves as the address for our resources, uniquely identifying them. In the context of our YouTube clone, URIs are used for accessing videos, user profiles, and more.
 
-- **Path Parameter**: These are variables included in the URI path itself. They allow us to point to specific resources or perform actions on them. For instance, we might use path parameters to indicate a particular video or user profile.
+- **Path Parameter**: These are variables included in the URI path itself. They allow us to point to specific resources or perform actions on them. For instance, It might use path parameters to indicate a particular video or user profile.
 
-Jhootube is an exciting project that encompasses modern web development practices, API integration, and a deep dive into RESTful architecture. We're excited to share our progress and continue building this YouTube clone!
+Jhootube is an exciting project that encompasses modern web development practices, API integration, and a deep dive into RESTful architecture. excited to share our progress and continue building this YouTube clone!
 
 ScreenShots
 ![Home Page](https://github.com/kirteeprajapati/youtube_clone/blob/main/Assest/Video_cards.png)
