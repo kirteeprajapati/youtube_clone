@@ -7,14 +7,16 @@ import {
   SearchFeed,
   Navbar,
   Feed,
-} from "./components";
+} from "./components";    /* all comes from Index.js that helps to fetch components*/
 
 const App = () => (
   <BrowserRouter>
     <Box sx={{ backgroundColor: "#000" }}>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Feed />} />
+        /* path ="/" refers to root  here are all the three components of the app*/
+        <Route exact path="/" element={<Feed />} />      
+
         <Route path="/video/:id" element={<VideoDetail />} />
         <Route path="/channel/:id" element={<ChannelDetail />} />
         <Route path="/search/:searchTerm" element={<SearchFeed />} />
