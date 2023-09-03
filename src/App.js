@@ -14,7 +14,7 @@ const App = () => (
     <Box sx={{ backgroundColor: "#000" }}>
       <Navbar />
       <Routes>
-        /* path ="/" refers to root  here are all the three components of the app*/
+        
         <Route exact path="/" element={<Feed />} />      
 
         <Route path="/video/:id" element={<VideoDetail />} />
@@ -26,3 +26,4 @@ const App = () => (
 );
 
 export default App;
+/* path ="/" refers to root  here are all the three components of the app*/
