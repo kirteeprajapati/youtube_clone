@@ -16,7 +16,7 @@ const SearchBar = () => {
       setSearchTerm('');
     }
   };
-
+/* The Paper component is a simple div with a white background and some elevation appears as if floating on the top*/
   return (
     <Paper
       component='form'
@@ -24,9 +24,9 @@ const SearchBar = () => {
       sx={{
         borderRadius: 20,
         border: '1px solid #e3e3e3',
-        pl: 2,
+        pl: 2,                  // padding left
         boxShadow: 'none',
-        mr: { sm: 5 },
+        mr: { sm: 5 },        // margine only on small device of 5
       }}
     >
       <input
